@@ -3,7 +3,6 @@ import "./App.css";
 import ImageContainer from "./ImageContainer";
 import SearchBar from "./SearchBar";
 import searchImages from "./Api";
-import { LinearProgress } from "@mui/material";
 
 function App() {
   const [images, setImages] = useState([]);
